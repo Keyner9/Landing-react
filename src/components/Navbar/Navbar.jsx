@@ -3,9 +3,9 @@ import Logo from "../../assets/Logo.png";
 
 const navbarlinks = [
   { id: 1, title: "Inicio", link: "/" },
-  { id: 2, title: "Nosotros", link: "#" },
-  { id: 3, title: "Contacto", link: "#" },
-  { id: 4, title: "Soporte", link: "#" },
+  { id: 2, title: "Catálogo", link: "#" },
+  { id: 3, title: "Promociones", link: "#" },
+  { id: 4, title: "Únete", link: "#" },
 ];
 
 const navbarRedes = [
@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-purple-900 bg-opacity-30 backdrop-blur-md z-50 flex justify-between items-center sm:px-12 sm:py-6 px-4 py-3">
       {/* Logo navbar */}
       <div>
-        <img src={Logo} alt="Logo del sitio" className="w-[100px]" />
+        <img src={Logo} alt="Logo del sitio" className="w-[50px]" />
       </div>
       {/* Botón hamburguesa */}
       <button onClick={toggleMenu} className="md:hidden text-white">
