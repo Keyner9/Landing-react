@@ -1,12 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Maquillajeicon from "../assets/icons/Maquillaje.gif"
+import Perfumeicon from "../assets/icons/Perfume.gif";
+import Corporalicon from "../assets/icons/Corporal.gif";
+import Facialicon from "../assets/icons/Facial.gif";
+
+
 
 const categories = [
-  { id: 1, name: "Cuidado Facial", slug: "cuidado-facial", image: "/assets/categories/facial.png" },
-  { id: 2, name: "Maquillaje", slug: "maquillaje", image: "/assets/categories/maquillaje.png" },
-  { id: 3, name: "Fragancias", slug: "fragancias", image: "/assets/categories/fragancias.png" },
-  { id: 4, name: "Cuidado Corporal", slug: "cuidado-corporal", image: "/assets/categories/corporal.png" }
+  { id: 1, name: "Cuidado Facial", slug: "cuidado-facial", image: Facialicon},
+  { id: 2, name: "Maquillaje", slug: "maquillaje", image: Maquillajeicon},
+  { id: 3, name: "Fragancias", slug: "fragancias", image: Perfumeicon},
+  { id: 4, name: "Cuidado Corporal", slug: "cuidado-corporal", image: Corporalicon }
 ];
+
 
 const CategoryGrid = () => {
   return (
